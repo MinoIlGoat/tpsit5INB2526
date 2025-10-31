@@ -1,0 +1,6 @@
+https://github.com/MatteoPagliari/tpsit5INB2526.git
+
+
+git remote add origin https://github.com/MatteoPagliari/tpsit5INB2526.git
+git branch -M main
+git push -u origin main
