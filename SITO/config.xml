@@ -1,0 +1,46 @@
+<site>
+  <header>
+    <text>Esercizio bootstrap</text>
+  </header>
+
+  <title>
+    <text>FUNZIONI</text>
+  </title>
+
+  <footer>
+    <item>
+      <label1>Altavilla Cosimo</label1>
+    </item>
+
+    <item>
+      <label2>15/10/25</label2>
+    </item>
+  </footer>
+  
+  <menu>
+    <item>
+      <label>Home</label>
+      <href>?page=home</href>
+    </item>
+
+    <item>
+      <label>Info Sito</label>
+      <href>?page=infosito</href>
+    </item>
+
+    <item>
+      <label>PhpInfo</label>
+      <href>?page=phpinfo</href>
+    </item>
+
+    <item>
+      <label>Elenco Articoli</label>
+      <href>?page=elencoarticoli</href>
+    </item>
+
+    <item>
+      <label>ExportJSON</label>
+      <href>?page=exportjson</href>
+    </item>
+  </menu>
+</site>

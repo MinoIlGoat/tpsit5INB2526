@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<FatturaXML>
+  <Intestazione>
+    <NumeroFattura>12345</NumeroFattura>
+    <DataFattura>2025-10-15</DataFattura>
+    <DataScadenza>2025-11-14</DataScadenza>
+  </Intestazione>
+  <Venditore>
+    <RagioneSociale>Azienda Emettitrice srl</RagioneSociale>
+    <PartitaIVA>01234567890</PartitaIVA>
+    <Indirizzo>Via Roma, 1</Indirizzo>
+    <Citta>Milano</Citta>
+  </Venditore>
+  <Cliente>
+    <RagioneSociale>Azienda Ricevente spa</RagioneSociale>
+    <PartitaIVA>98765432109</PartitaIVA>
+    <Indirizzo>Corso Italia, 5</Indirizzo>
+    <Citta>Torino</Citta>
+  </Cliente>
+  <Articoli>
+  <Articolo><Descrizione>tabetto</Descrizione><Quantita>4</Quantita><PrezzoUnitario>4</PrezzoUnitario><PrezzoTotale>16</PrezzoTotale></Articolo><Articolo><Descrizione>mino</Descrizione><Quantita>4</Quantita><PrezzoUnitario>5</PrezzoUnitario><PrezzoTotale>20</PrezzoTotale></Articolo><Articolo><Descrizione>Vino Rosso</Descrizione><Quantita>1</Quantita><PrezzoUnitario>10</PrezzoUnitario><PrezzoTotale>10</PrezzoTotale></Articolo><Articolo><Descrizione>Prova</Descrizione><Quantita>1</Quantita><PrezzoUnitario>1.2</PrezzoUnitario><PrezzoTotale>1.2</PrezzoTotale></Articolo><Articolo><Descrizione>Vino Bianco</Descrizione><Quantita>20</Quantita><PrezzoUnitario>5</PrezzoUnitario><PrezzoTotale>100</PrezzoTotale></Articolo><Articolo><Descrizione>Vino Rosato</Descrizione><Quantita>2</Quantita><PrezzoUnitario>2</PrezzoUnitario><PrezzoTotale>4</PrezzoTotale></Articolo><Articolo><Descrizione>dd</Descrizione><Quantita>3</Quantita><PrezzoUnitario>3</PrezzoUnitario><PrezzoTotale>9</PrezzoTotale></Articolo><Articolo><Descrizione>Vino aceto</Descrizione><Quantita>1</Quantita><PrezzoUnitario>1</PrezzoUnitario><PrezzoTotale>1</PrezzoTotale></Articolo><Articolo><Descrizione>dd</Descrizione><Quantita>2</Quantita><PrezzoUnitario>2</PrezzoUnitario><PrezzoTotale>4</PrezzoTotale></Articolo><Articolo><Descrizione>dd</Descrizione><Quantita>3</Quantita><PrezzoUnitario>3</PrezzoUnitario><PrezzoTotale>9</PrezzoTotale></Articolo><Articolo><Descrizione>ds</Descrizione><Quantita>2</Quantita><PrezzoUnitario>2</PrezzoUnitario><PrezzoTotale>4</PrezzoTotale></Articolo></Articoli>
+  <Totali>
+    <Imponibile>250.00</Imponibile>
+    <IVA>55.00</IVA>
+    <Totale>305.00</Totale>
+  </Totali>
+  <DettagliPagamento>
+    <Metodo>Bonifico Bancario</Metodo>
+    <IBAN>IT99Z9999999999999999999999</IBAN>
+  </DettagliPagamento>
+</FatturaXML>
